@@ -1,0 +1,579 @@
+ 
+ TEKWAR MANUAL
+
+ WINDOWS 95
+ Installation Instructions:
+    To Install:
+  1.   Double-click on the My Computer icon.
+  2.   Double-click on the Control Panel icon.
+  3.   Double-click on Add/Remove Programs.
+  4.   Click on the Install button.
+  5.   Click on the Next button.
+  6.   Click on the Finish button.
+  7.   Follow the prompts on the screen.
+  8.   When done click on the X in the top right corners to close all
+       windows to return to your desktop.
+
+    To Run Setup:
+  1.   Restart your PC in MS-DOS Mode.
+  2.   Switch to the directory in which you installed the game & hit enter.
+       (Example: CD\CAPSTONE\TEKWAR)
+  3.   Type Setup and hit enter, then follow the prompts on the screen.
+  4.   When done, type exit and hit enter to restart Windows 95.
+
+    To Run the Game:
+  1.   Click on the Start button.
+  2.   Click on the Run line.
+  3.   In the white box, type the path where the game is located and
+         add \tekwar.exe at the end of it.
+         Example: C:\CAPSTONE\TEKWAR\TEKWAR.EXE
+  4.     Click on the OK button.
+
+ GRAVIS ULTRASOUND
+ Gravis Ultrasound users must run the GRAVIS.EXE file after they have 
+ installed the game to their hard drive. Once you have done this, simply 
+ run the SETUP.EXE program again and your Gravis Ultrasound should work
+ properly. (You may not here MIDI during the test, but it will work in 
+ the game.)
+
+ Inventory:
+ The following items are included with TekWar:
+          One (1) TekWar  CD-ROM
+          One (1) Manual
+          One (1) Registration Card
+
+ System Requirements
+ Computer:  IBM 486/ DX50 Mhz; MS-DOS version 5.0 or higher with a 2X speed
+ CD-ROM. (Pentium Recommended for SVGA mode)
+ Memory: 8 MB RAM
+ Video Card: VESA SVGA
+ Hard Drive: minimum of 50 MB.
+
+ Running the Installation Program:
+ To install TekWar  on your hard drive:
+
+ 1) Insert the CD into your CD-ROM drive, and switch to the CD-ROM drive. 
+
+ 2) Type INSTALL.
+ Following the installation, the install program takes you directly to
+ TekWar's Setup program.
+
+ Type TEKWAR ? for options   (Ex. TEKWAR NETNAME JAMES)
+
+ options: PRACTICE                    (Choose any map to practice on)
+          NOGORE                      (No blood in game)
+          NOBRIEFS                    (No Shatner cut scenes)
+          NETNAME [YOUR PLAYER NAME]  (Name your player for network)
+          NOENEMIES                   (No enemies in game)
+          NOVIDEOID                   (Skips SVGA check)
+          CYBER 1:2:3:4               (Cybermaxx enabled on COM port)
+          IGLASS 1:2:3:4              (I-Glasses! enabled on COM port)
+          SPACEBALL                   (Spaceball Avenger enabled)
+          VFX1                        (VFX1 Headgear enabled)
+
+ Keyboard Mapping
+ This option allows you to customize the controls for TekWar.
+
+ Audio Setup
+ This option  executes the audio configuration program. This program allows
+ you to select your audio output device and test it for compatibility. 
+
+ Sound Notes:
+ Select the sound card that is most compatible with your own. If you have a
+ generic card, select a SoundBlaster 8 bit card and move down the list until
+ you find a card that does not work.  Then go back to the previous selection. 
+
+ CD Music Controls
+ Once in the game, use the following controls for CD Quality Music:
+
+ Alt-P Play
+ Alt-S Stop
+ Alt-R Reset
+ Alt-F Advance Track
+ Alt-B Reverse Track
+
+ Video Mode 
+ TekWar supports several video modes. NOTE: The 640x480 video mode requires
+ a 512 K Vesa compatible video card. If you do not have a VESA driver loaded
+ the game will display the message VANILLA VGA after the intro. has been 
+ played. YOU MUST AT THIS POINT EXIT TO DOS VIA THE ESC KEY FOLLOWED BY A Y
+ AND THEN LOAD A VESA DRIVER. If you have a VESA driver loaded, it will 
+ display the message VESA VGA. If your screen at any point goes black, yet 
+ you can still here the music, it is a video driver conflict.
+
+ What is a VESA driver and how do I get one?
+ VESA is a standard for programming SVGA cards. For most systems, it requires
+ that a "VESA driver" be loaded on your system before using any of the high
+ resolution SVGA modes. Each SVGA card requires a custom VESA driver which is
+ usually shipped with your card. If you do not have a VESA driver for your
+ video card, refer to the \TEKWAR\VESA directory on the CD and type DETECT.
+ This will tell you what video card you have and you then must type the 
+ appropriate driver from within that directory. 
+
+ Communications
+ TekWar supports  one active, 2-16 player game on a LAN, and one head to head
+ modem game at 9600 baud rate or better. An  IPX or compatible network driver
+ is required for the network game. Make sure to set Communications to IPX
+ if you want to play network play; Also choose the correct number of
+ participating players.
+
+ MODEM PLAY
+ You must turn data compression off in your init string for your modem.
+ For some modems append "%C0" to the init string.  Others, such as USR
+ modems, use "&K0".  A few examples follow:
+
+        non U.S. Robotics: AT&F&C1&D2%C0
+        U.S. Robotics:     AT&F&C1&D2&K0
+
+ To begin a modem play game type "modem" from the Tekwar DOS prompt.
+ One computer must select "dial" and type in the phone number and the
+ other computer should select "answer".  Once both computers are connected
+ you may type messages to each other to decide which game to play.  Press 
+ F10 to start the game.
+
+ Some modems will not work with 14400 as the baud rate.  If you have
+ 14400 selected as the baud rate and your modem is not responding with
+ "OK" once the init string is sent to it try 9600 or 19200.
+
+ The answer command for most modems is "ATS0=1".  This only needs to be
+ typed in for the modem that is answering.
+
+ The dial command for most modems is "ATDT".  This only needs to be typed
+ in for the modem that is dialing.
+
+ Manual
+ This option browses the MANUAL.TXT file.
+
+ How do I make TekWar run faster?
+ 1) Set your screen resolution to 320x200.
+
+ 2) Minimize screen using the - (minus) key while the auto map is off.
+
+ 3) Turn off uneeded displays such as the health meter or rear view display.  
+
+ Technical Support
+ IntraCorp Entertainment, Inc.
+ 501 Brickell Key Drive 6th Floor
+ Miami, FL. 33131
+ (305) 373-3770
+
+ A City in Turmoil...
+ The year is 2045. The place is the Greater Los Angeles Metropolitan Area
+ (GLAMA). The threat: Tek. The most psychoactive mind alterant ever devised
+ by the human mind is peddled daily on the streets of the inner city. This
+ trade resists all efforts by the poorly funded local authorities to halt its
+ distribution, and it brings in enormous wealth for those in control: the
+ TekLords. The mafia kingpins of the 21st century, the TekLords have divided
+ the city into seven boroughs to minimize infighting and maximize their profit. 
+
+ A New Threat...
+ Recently, an informant within the organization of TekLord Sonny Hokori, the
+ most powerful TekLord in the city, has come forth with a story too
+ frightening to ignore. He swears that the TekLords have put aside their
+ differences to increase the level of Tek addiction to disastrous proportions.
+ Their vehicle: the Matrix. Nicholi Petrovski, a noted cyberbiologist and
+ Miyoshi Nakahara, a Nobel prize winning cyberneticist have mysteriously
+ disappeared. It is believed that their skills are being used by the TekLords
+ to develop  a means to distribute Tek across the Matrix. This would addict
+ the hundreds of thousands of people who use the Matrix in their daily
+ business; and once the flow of Tek on the Matrix is stopped, these addicts
+ will rely on the TekLord Consortium in the physical world to get their fix. 
+
+ Recently Thawed....
+ Who will save the city from this enslavement? You will. An ex-cop framed for
+ dealing Tek, you have spent the last five years in cryogenic suspension in an
+ orbiting prison platform called "the Freezer". When you return to earth you
+ discover that you have been granted a 'special parole' on the condition that
+ you work for Walter Bascom, head of the Cosmos Detective agency. You must
+ investigate the efforts of the TekLords to use the Matrix and find a way to
+ stop them. If you succeed, thousands of  innocents escape the mind-ravaging
+ effects of Tek. If you fail, the addiction spreads, but you won't see that in
+ the freezer...
+ 
+ Game Play
+
+ Once the game has started and you are standing in the subway, hit the ESC key
+ to bring up the TekWar Menu.
+
+ TekWar Menu
+
+ New Game
+ This starts a  new game. There are three difficulty levels to choose from: 
+
+ Easy:        1,000 health and consciousness.
+ Medium:      750 health and consciousness.
+ Hard:        500 health and consciousness. 
+
+ In addition to health and consciousness changes, each increasing difficulty
+ level contains stronger TekGoons.
+
+ Load Game
+ This allows you to load a saved game. There are five game slots to choose
+ from.
+
+ Options
+ This brings up the interface options. There are several sub-menus here:
+
+ Mouse Sensitivity 
+ This option allows you to increase or decrease motion sensitivity of the
+ mouse. 
+
+ Sound/Music Volume 
+ This option allows you to adjust the sound and music volumes. 
+
+ Head Bob On/Off
+ This toggles the head bob option, a realistic feature that simulates
+ perspective in human motion. 
+
+ Abort Mission
+ This option will allow you to go back to the Main Menu.                     
+
+ Function Keys
+ Many of the options in the TekWar Menu can be accessed through the keyboard
+ function keys. These keys are:
+
+ F1      TekWar Online Help
+ F2      Save Game 
+ F3      Load Game
+ F4      Quit Game
+ F5      Toggle Messages On/Off
+ F6      Mouse Sensitivity
+ F7      Toggle Monitor Overscan
+ F8      Sound and Music Volume
+ F9      Screen Brightness
+ F10     - Scrapped -
+ F11     Joystick Centering
+ F12     Screen Capture
+
+ Function Key Notes
+ F5: The Toggle Messages On/Off key only applies to a network or modem game.
+
+ F7: Monitor Overscan is a screen effect that indicates you have taken damage
+ or picked up an item. There are two ways to display this, a flashing red
+ border effect and a red fading palette effect. The F7 key toggles between
+ the two.                                                        
+
+ F12: The screen capture feature only works in 320x200 resolution. It saves
+ the screen shot as a PCX file in your TekWar directory.
+
+   TekWar Interface
+
+
+ Map
+ The overhead map is activated by pressing the TAB key. Use  the plus + and
+ minus - keys to zoom in and out of the map. There are 2 variations of the
+ overhead map. A see through map, and a textured map. 
+
+ Rear View Display
+ This device allows you to view the area behind you. Activate it by pressing
+ the R key. 
+
+ MATEC
+ While in the Matrix, you are subjected to extreme amounts of sensory
+ information. To prevent damage to your nervous system, the Matrix Station
+ will revive you when your energy gets low. The MATEC, or MAtrix Time Energy
+ Continuum display, shows the amount of time/energy remaining before the Matrix
+ Station forcibly ejects you. Standard time is 6 minutes, but this decreases
+ with each energy expenditure, and can be increased with items found in the
+ Matrix. Activate the MATEC by pressing the M key.
+
+ ALT-Q           Quit Matrix and start over. 
+ X               Up
+ C               Down
+ Use SHIFT + X or C to move Up or Down faster 
+ CTRL            Shoot
+ SPACEBAR        Activate wall switches
+ 
+ Inventory
+ Carried items can be displayed on the right side of the screen. To activate
+ the inventory display, press the I key. 
+
+ Weapon
+ To change the selected weapon, press the corresponding number key:
+
+ 1       Kralov CEG 15 Electro-Stunner
+ 2       C & W Model 2040
+ 3       Shrike DBK Pistol
+ 4       Orlow 34s
+ 5       EMP Anti Android Pistol
+ *********************************
+ 6       Force Charge
+ 7       Stun Grenade
+ 8       Flamethrower
+ 9       Rocket Launcher
+
+ Note: Force Charge & Stun Grenades have been changed so that they are picked
+ up with the space bar and then thrown with the Enter key; They are no longer 
+ weapons 6 & 7. Weapons 8 & 9 have now been moved to the 6 & 7 locations
+ respectively.
+
+ To draw the selected weapon, press the Left Ctrl key, and to put the weapon
+ away press the / key. Note: Drawing a weapon has  an effect on civilians and
+ attracts the attention of the GLA Police Force. 
+
+ Aiming Reticule
+ A crosshair can be activated by pressing the A key.
+
+ Ammunition/ Recharging
+ Many of the weapons in TekWar require ammunition or charging. Ammunition can
+ be found in certain city areas and scavenged from TekGoons. 
+
+ Health Meter
+ You have two values representing your physical condition in TekWar:
+ Consciousness and Health. Both enemy attacks and falling remove health and
+ consciousness. If your consciousness reaches zero, you are rendered
+ unconscious. If your health reaches zero, you die. Your remaining health can
+ be displayed in two ways: numerically at the bottom of the screen, or
+ graphically in the Health Meter. The H key toggles between the two display
+ methods. 
+
+ In the Health Meter, there are three colored bars, a green one, a yellow one,
+ and a blue one. They represent:
+
+ Green bar:    health 
+ Yellow bar:   consciousness
+ Blue bar:     ammunition
+
+ Note: Score & Time remaining keys have been replaced with the E key so as to
+ not interfere with matrix symbols at the bottom of the screen.
+
+ Movement
+ Walking
+ Use the appropriate ARROW keys, the RIGHT MOUSE BUTTON or UP on the joystick. 
+
+ Running
+ Hold down the SHIFT key while walking, or press BUTTON 1 on the joystick.
+
+ Strafe
+ Strafing is a quick movement to the side. 
+ To strafe Right: press the . key or CTRL ALT RIGHT ARROW.
+ To strafe Left:   press the , key or CTRL ALT LEFT ARROW.
+ 
+ Jump/Crouch
+        Jump:           press the X key.
+	Crouch:  	press the C key.
+
+ Look Up/ Look Down
+	Look Up: 	press the PAGE UP key	
+	Look Down : 	press the PAGE DOWN key
+	Center View: 	press the HOME key
+
+ Open/Use
+ To open doors and use various items such as keycards, energy outlets and
+ matrix stations, press the SPACEBAR.
+
+ The Matrix
+
+ The Matrix is a virtual landscape comprised of all networked electronic
+ communication systems. Across this abstracted terrain, a digitized humanity
+ flows and conducts daily tasks. Individuals and mega-corporations participate
+ side by side in a virtual marketplace, trading each and every second the most
+ volatile and precious of commodities: information. 
+
+ Place Matrix Symbol Keys by pressing the space bar.
+
+ Weapons
+ 
+ Kralov CEG-15 Stunner
+ This pistol fires a ball of highly charged particles that will short out its
+ targets nervous system and render them unconscious for a short period of
+ time.  
+
+ C&W Model 2040
+ This semiautomatic pistol fires caseless rounds. It is the choice weapon of
+ most TekGoons, so scavenged clips will serve to reload. 
+
+ Shrike DBK
+ This weapon fires energy rounds that expand on impact, violently ripping its
+ target to pieces. This weapon must be recharged at an energy outlet. 
+
+ Orlow 34s
+ An aggressive upgrade from the Shrike DBK, the Orlow 34s is a semiautomatic
+ energy round weapon. Like the Shrike, it must be recharged at an energy
+ outlet.  
+
+ EMP Pistol
+ This pistol fires an electromagnetic pulse designed to stun androids. It must
+ be recharged. 
+
+ Force Charge
+ A cannister of liquid plastic explosive equipped with a kinetic detonator.
+ This weapon is thrown and explodes on impact. 
+
+ Flamethrower 
+ This rifle fires long gouts of a volatile chemical mixture that bursts into
+ flame on contact with air. The fluid also has a glutinous consistency,
+ causing it to stick to its target and inflict horrendous burn damage. This
+ weapon requires fuel canisters to reload. 
+
+ Rocket Launcher
+ This shoulder-mounted weapon fires short range rockets that explode on
+ impact, obliterating its target and much of the surrounding infrastructure as
+ well. Originally designed as heat-seekers for aircraft, the targeting acuity
+ of these rockets has been increased to track a human target. 
+
+
+ Characters and Enemies
+
+ Civilians
+     
+ Though accustomed to living in a dangerous world of urban violence, the
+ hardened citizens of GLA  want only to stay clear of all TekLord-Police
+ altercations and continue their business with some feigned degree of
+ normality.
+
+ Cops
+ 
+ Losing the war against Tek, the GLA Police Force finds itself hopelessly
+ outmanned and utterly outgunned. Seeing their uniformed comrades shot down
+ day after day in the line of duty has embittered them and instilled within
+ them a deep hatred for Tek, the Tek Lords, and especially those 'Rogue' cops
+ that leave to work for the Consortium.
+
+ Kamikaze Androids
+ These mechanized assassins home in on their programmed targets and attempt to
+ touch them. Their tactile detonators cause them to explode on contact. These
+ androids can appear as Civilians, Cops or TekGoons, and are notoriously
+ difficult to damage with conventional weaponry. 
+ 
+ TekGoons
+ The wealth and power of the Tek Consortium allows it to hire agents superior
+ to the GLA Police Force in both armament and number. These loyal soldiers
+ serve as the arms of the TekLords, doing the 'dirty work' associated with
+ organized crime. They carry a varied assortment of weapons and guises,
+ allowing them to infiltrate all aspects of city life and quickly terminate
+ any threats to the boroughs. 
+
+ The TekGoons are ruthless; their willingness to fire on civilians has numbed
+ the populace of GLA into submission, and  detracted much support for the
+ local authorities. As a result., the average citizen relies on TekGoon favor
+ as much as the GLAPD to stay out of harm's way. 
+
+ TekLords
+
+ The real power in GLA, these local warlords control the distribution of Tek,
+ the most addictive psychoactive drug created. As the local authorities fail
+ miserably to slow the trade of Tek, the TekLord Consortium increases its area
+ of control and makes plans to harness the power of the Matrix to spread Tek
+ addiction to the entire world. 
+
+ Conrad Lowell     Dallas Di Marco      Miles Connor
+    	       		     
+
+ Marty Dollar      Janus                Carlyle Rossi
+    	      		     
+
+                   Sonny Hokuri
+
+ As the most powerful member of the TekLord Consortium, Sonny Hokuri is the
+ major force behind the plan to distribute Tek through the Matrix. 
+
+ Software Creations BBS
+ Dedicated to the Development & Distribution of GREAT Software 
+ Member of the Worcester County Sysops Association
+
+ CAPSTONE
+ "The Pinnacle Of Entertainment Software"
+ Get the newest CAPSTONE games FREE  ** File Section 156  ** (F156)
+ 
+ 1200/2400 V.42/MNP  lines : (508) 365-2359
+ 2400-14.4k HST US Robotics  lines : (508) 368-7036
+ 2400-16.8k V.32/V.42bis US Robotics lines : (508) 368-7139
+ 14.4-28.8k V.32/V.42bis/V.fc Hayes Optima lines : (508) 365-9352
+ 14.4-28.8k V.32/V.42bis/V.32terbo/V.fc US Robotics lines : (508) 368-3424
+ 
+ "Home of the Authors"
+
+
+ Executive Producer
+ Amy Smith "Topcat" Boylan
+
+ Producer 
+ James "Go Canes!" Wheeler
+
+ Product Manager
+ Judy "FSWHO" Melby
+
+ Design
+ Brandon "Burn Another CD" Chamberlain
+
+ Executive Story Consultant
+ William Shatner
+
+ Story and Script
+ Brandon "Burn Another CD" Chamberlain
+ Tony "I Get No Respect" Panaccio
+
+ 3D Engine and Tools
+ Ken Silverman
+
+ Programming
+ Jeff "Hosehead" Schulz
+ Les "Can I Go Home" Bird
+
+ Sound and Additional Programming
+ Joe "I Need A Woman" Abbati
+
+ 3D Animation and Artwork
+ Ken "Thumper" Loyd
+ Ruben "Scorpion" Cabrerra
+ Carlos "Hooked On Phonics" Ibarra
+ Scott "Puppet Boy" Nixon
+ John "Scuba" Potter
+ Ernie "I'm At School" Roque
+ Gonzalo "Mo' Money" Montes de Oca
+
+ Original Map Design
+ Ken "Thumper" Loyd
+ Mike "Witchaven" Pitts
+
+ Coordinator of Extended Lunch Breaks
+ Jeff "No Treats" Schulz
+ 
+ Late Night Dinner Payee
+ Tag "The Big Boss" Tognalli
+  
+ Map Editors
+ Ken "Thumper" Loyd
+ Jeff "Hosehead" Schulz
+ Ruben "Scorpion" Cabrerra
+ John "Scuba" Potter
+
+ QA Manager
+ Ray "Boomer" Boylan
+
+ QA Coordinator
+ Carlos "RX7" Munoz
+
+ Actors
+ William Shatner as Walter Bascom
+ 
+ Other TekWar Characters
+ Kirsten Marshall
+ Scott Amos
+ Sydney Sproule
+ Toby Sax
+ Lee Ann Emery
+ Rick Knight
+ Shawne Williams
+ Orry Skrypec
+ Jeff Wachsmann
+ Aaron Okada
+ 
+ Beta Testers
+ Trevor "Travis" Talbird
+ Michael "Wolverine" Goldman
+ Alex "Fashion Statement" Solano
+ Michael "DeWiner" DeMarco
+ Katie "Lil' Yma" Gangi
+ Sean "Father" Potter
+
+ With special thanks for video production assistance to:
+ Sherri Saito
+ Alex Dawes
+ Sherry McMorran
+ Sydney Sproule
+ Kirsten Marshall
+ Lemli Productions
+ Cardigan Productions
+

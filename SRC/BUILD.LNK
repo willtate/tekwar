@@ -1,0 +1,10 @@
+debug    all
+option   map
+option   verbose
+name     ..\run\build
+file     build,
+         bstub,
+         engine,
+         cache1d,
+         a
+
